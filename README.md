@@ -1,15 +1,26 @@
 # koa2-router-event
 
-## start it yourself
+## Usage
+
+```javascript
+const Koa = require('koa');
+const eventRouter = require('../lib');
+
+const app = new Koa();
+
+
+app.use(eventRouter({
+  path: `${__dirname}/src`,
+  filename: /\.controller\.js$/,
+}));
+
+app.listen(9999);
 
 ```
-# clone
-git clone https://github.com/songchengen/koa2-event-router.git
 
-# install dependencies
-npm install
+## Config
 
-# start
-npm start
-
-```
+|Name | Type |  Require  | Default | Description|
+|---- | ---- |  ----     |  ----   |  ----      |
+|path | String| true | null |scan entry|
+| filename|  RegExp|false| /\.controller\.(js&#124;ts)&/|controller file matching rule|
