@@ -30,7 +30,7 @@ router.on('get /api/v2/test', async (ctx) => {
   ctx.body = 'Hello World!';
 });
 
-// open http:://localhost:9999/api/v2/test
+// open http://localhost:9999/api/v2/test
 
 ```
 
