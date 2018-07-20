@@ -1,7 +1,7 @@
 {
   "name": "koa2-event-router",
   "version": "1.0.0",
-  "description": "基于事件的路由管理测试",
+  "description": "Event-based routing registrar",
   "main": "index.js",
   "scripts": {
     "test": "node ./example/index.js",
@@ -12,15 +12,11 @@
     "url": "git+https://github.com/songchengen/koa2-event-router"
   },
   "keywords": [
+    "node",
+    "events",
     "koa2",
-    "koa-router",
     "events"
   ],
   "author": "songchengen",
-  "license": "MIT",
-  "devDependencies": {
-    "eslint": "^5.1.0",
-    "eslint-config-airbnb-base": "^13.0.0",
-    "eslint-plugin-import": "^2.13.0"
-  }
+  "license": "MIT"
 }
