@@ -23,4 +23,4 @@ app.listen(9999);
 |Name | Type |  Require  | Default | Description|
 |---- | ---- |  ----     |  ----   |  ----      |
 |path | String| true | null |scanning entrance|
-| filename|  RegExp|false| /\\.(js&#124;ts)&/|controller file matching rule|
+| filename|  RegExp|false| /\\.(js&#124;ts)$/|controller file matching rule|
